@@ -1,0 +1,111 @@
+body {
+    margin: 20 auto;
+    background-image: url(https://media.istockphoto.com/illustrations/basketball-court-with-wood-texture-basketball-tactical-court-illustration-id1212609648?k=20&m=1212609648&s=612x612&w=0&h=zu2wOuFSp3ITyzREz1q9kNWzhJq4PdvFTAj7E7gJrdM=);
+    background-size: cover;
+}
+#home {
+    margin-top:50px;
+    display: flex;           
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;     
+    height: 300px;
+}
+#page-title {
+    margin:0px auto;
+    padding:5px 60px;
+    background-color:white;
+    border-radius:5px;
+    color:#1B244A;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #1B244A;
+    border-radius: 10px;
+    width: 575px;
+    height: 385px;
+}
+.title {
+    display: flex;
+    justify-content: space-around;
+    margin-top:50px;
+    margin-bottom: 0;
+    color: whitesmoke;
+    font-size: 40px;
+}
+.period-title {
+    display: flex;
+    justify-content: space-around;
+    margin-top:0px;
+    margin-bottom: 0;
+    color: whitesmoke;
+    font-size: 15px;
+}
+#period-container {
+    margin: auto 0;
+    
+}
+#home-score {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color:black;
+    width: 155px;
+    height:120px;
+    color:brown;
+    font-size: 90px;
+    margin:20px 5px;
+    font-family: ZCOOL QingKe HuangYou, sans-serif;
+}
+#guest-score {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color:black;
+    width: 155px;
+    height:120px;
+    color:brown;
+    font-size:90px;
+    margin:20px 5px;
+    font-family: ZCOOL QingKe HuangYou, sans-serif;
+}
+#period {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color:black;
+    width: 75px;
+    height:50px;
+    color:brown;
+    font-size:40px;
+    margin:10px 10px;
+    font-family: ZCOOL QingKe HuangYou, sans-serif;
+}
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+}
+.btn {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    margin:20px 0;
+}
+#reset {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 80px;
+    height: 35px;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1B244A;
+    color: whitesmoke;
+    padding-top:8px;
+    margin: 20px auto;
+}
