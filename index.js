@@ -36,12 +36,16 @@ function add3Guest() {
     guestScoreEl.textContent = guestScore
 }
 function periodDown() {
-    periodTitle -= 1
-    period.textContent = periodTitle
+    if (periodTitle >= 2){
+        periodTitle -= 1
+        period.textContent = periodTitle
+    } 
 }
 function periodUp() {
-    periodTitle += 1
-    period.textContent = periodTitle
+    if (periodTitle <= 3){
+        periodTitle += 1
+        period.textContent = periodTitle
+    }
 }
 
 function resetButton() {
